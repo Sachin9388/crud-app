@@ -71,9 +71,9 @@ export const ReduxPopup = () => {
   };
 
   const handleEdit = (data) => {
-      setFormValues(data);
-      setEditIndex(data);
-      handleOpen("sm");
+    setFormValues(data);
+    setEditIndex(data);
+    handleOpen("sm");
   };
 
   const handleDelete = (data) => {
